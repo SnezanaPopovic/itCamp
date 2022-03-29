@@ -1,0 +1,89 @@
+
+.naslov{
+    margin-left: 150px;
+    background-color: lightblue;
+    font-size: 100px;
+    width: 960px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+}
+
+.nesto{
+    float:left;
+    background-color: lightblue;
+    border-radius: 90px;
+    padding:25px;
+    margin-left: 230px;
+    margin-top: 30px;
+    font-size: 23px;
+
+}
+
+.ime{
+   font-size: medium;
+   font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 25px;
+
+}
+.tekst{
+    border-right: 10px;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.levo{
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    border-right: solid 1px grey;
+
+}
+
+h1{
+    margin-bottom: 10px;
+    margin-top: 110px;
+    margin-left: 120px;
+    font-size: large;
+    text-align: center;
+
+}
+
+.desno{
+      font-size: 22px;
+      font-family: 'Times New Roman', Times, serif;
+      color: black;
+      width: 50%;
+      height: 300px;
+      vertical-align: top;
+      display: inline-block;
+      margin-top: 5px;
+      margin-left: 30px;
+    
+}
+
+.crtica{
+    width: 50px;
+    height: 0;
+    text-align: center;
+    border-top: 5px solid blue;
+    margin-left: 236px;
+}
+
+.stolica{
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 130px;
+    color: black;
+    margin-top: 20px;
+
+}
+
+.plavo{
+    color: blue;
+}
