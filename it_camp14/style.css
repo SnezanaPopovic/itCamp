@@ -1,0 +1,17 @@
+.kocka{
+    height: 140px;
+    width: 140px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 5s;
+    position: relative;
+
+
+}
+@keyframes example{
+    0% {background-color:red;transform: rotate(45deg); left:0px; top:0px;}
+  25%  {background-color:yellow;transform: rotate(90deg); left:200px; top:0px;}
+  50%  {background-color:blue;transform: rotate(180deg); left:200px; top:200px;}
+  75%  {background-color:green;transform: rotate(270deg); left:0px; top:200px;}
+  100% {background-color:red;transform: rotate(360deg); left:0px; top:0px;}
+}

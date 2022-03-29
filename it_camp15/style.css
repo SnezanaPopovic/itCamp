@@ -1,0 +1,42 @@
+.sve{
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    position: relative;
+}
+
+.kocka{
+     height: 150px;
+     width: 150px;
+     background-color: plum;
+     transform: rotate(45deg);
+     animation-name: rotate;
+     animation-duration: 2s;
+     animation-direction: alternate;
+     animation-iteration-count: infinite;
+     position: absolute;
+}
+
+ @keyframes rotate{
+     25% { 
+         transform:rotate(90deg);
+         border-radius: 50% 0 0 0;
+        
+        }
+     50% { 
+         transform:rotate(135deg);
+        border-radius: 50% 50% 0 0;
+     }
+     75% {
+          transform:rotate(180deg);
+          border-radius: 50% 50% 50% 0;
+         }
+     100% { 
+         transform:rotate(225deg);
+        border-radius: 50% 50% 50% 50%; 
+    }
+    
+ }
+     
