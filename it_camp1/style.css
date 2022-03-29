@@ -1,0 +1,14 @@
+
+.blokovi{
+    background-color: black;
+    height: 200px;
+    width: 160px;
+    border-radius: 10px;
+    border: solid 3px greenyellow;
+    font-size: small;
+    text-align: center;
+    padding: 40;
+    margin: 15px 10px 15px 10px;
+    color: white;
+    float: left;
+}
