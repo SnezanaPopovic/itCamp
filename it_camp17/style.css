@@ -1,0 +1,113 @@
+.header{
+    width: 1364px;
+    height: 100px;
+    color: white;
+    background-color: rgb(248, 244, 244);
+    margin: 0;
+}
+.ispod{
+    width: 1364px;
+    height: 70px;
+    background-color: #EBEBEB ;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.tekst{
+    color: #00BCD4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    margin-left: 120px;
+    position: absolute;
+    margin-top: 30px;
+
+}
+.ispodteksta{
+    font-size:14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #AAAAAA;
+    font-weight: 50px;
+    margin-left: 120px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 54px;
+}
+.desno{
+    width: 900px;
+    float: right;
+    height: 100px;
+    display: flex;
+}
+
+.jedan{
+    font-size: 17px;
+    color: #00BCD4;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.drugi{
+    font-size: 17px;
+    color: #00BCD4;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 30px;
+
+}
+
+.trece{
+    font-size: 17px;
+    color: #00BCD4;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.ispod1{
+    color: #AAAAAA;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-weight: 600;
+
+}
+.ispod2{
+    color: #AAAAAA;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 350px;
+    font-weight: 600;
+
+}
+.ispod3{
+    color: #AAAAAA;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 600px;
+    font-weight: 600;
+
+}
+#icon1{
+    font-size: 40px;
+    color: #00BCD4;
+    margin-left: 20px;
+    margin-top: 27px;
+}
+
+#icon2{
+    font-size: 40px;
+    color: #00BCD4;
+    margin-left: 244px;
+    margin-top: 27px;
+
+}
+#icon3{
+    font-size: 40px;
+    color: #00BCD4;
+    margin-left: 220px;
+    margin-top: 27px;
+
+}

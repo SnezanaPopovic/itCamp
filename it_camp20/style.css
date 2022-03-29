@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+.tabla{ 
+    padding:20px 0;
+    display:flex;
+    border-bottom: 1.8px solid rgb(228, 228, 228);
+}
+.levo{
+    width:450px;
+    height:100px;
+}
+p{
+    font-size: 20px;
+    color:rgb(107, 104, 104);
+    margin:20px 0;
+}
+span{
+    color:blue;
+    font-size: 17px;
+}
+body{
+    padding:45px;
+}
+
+@media screen and (max-width:720px){
+    .tabla{
+        display:block;
+    }
+    .levo{
+        height: 80px;
+    }
+    body{
+        padding:80px;
+    }
+}
+@media screen and (max-width:480px){
+    body{
+        padding:50px 20px;
+    }
+} 
+
