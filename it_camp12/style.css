@@ -1,0 +1,758 @@
+.pozadina{
+    height: 660px;
+    width: 1349px;  
+    background-image: url( "ucitelj1.jpg"); 
+    background-size: 1349px 660px;
+    background-repeat: no-repeat;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 1349px;
+    height: 60px;
+    display: inline-block;
+}
+.justice{
+    font-size: 24px;
+    font-family: Rubik , sans-serif;
+    font-weight: 900;
+    color: black;
+    margin-left: 123px;
+    margin-top: 25px;
+    display:inline-block;
+}
+.desno{
+    width: 600px;
+    height: 60px;
+    float: right;
+    margin-right: 90px;
+    display: flex;
+    margin-top: 25px;
+    vertical-align: top;
+}
+
+.prvo{
+    font-size: 14px;
+    padding: 10px 15px;
+    font-family: Rubik , sans-serif;
+    color: black;
+    display: inline-block;
+}
+
+.drugo{
+    font-size: 14px;
+    padding: 10px 20px 10px 15px;
+    font-family: Rubik , sans-serif;
+    color: gray;
+    display: inline-block;
+
+}
+
+.trece{
+    font-size: 14px;
+    padding: 10px 15px;
+    font-family: Rubik , sans-serif;
+    color: gray;
+    display: inline-block;
+}
+.pozadina .trece:hover{
+    color: black;
+}
+.cetvrto{
+    font-size: 14px;
+    padding: 10px 15px;
+    font-family: Rubik , sans-serif;
+    color: gray;
+    display: inline-block;
+}
+.pozadina .cetvrto:hover{
+    color: black;
+}
+.peto{
+    font-size: 14px;
+    padding: 10px 15px;
+    font-family: Rubik , sans-serif;
+    color: gray;
+    display: inline-block;
+}
+.pozadina .peto:hover{
+    color: black;
+}
+.sesto{
+    font-size: 14px;
+    padding: 10px 15px;
+    font-family: Rubik , sans-serif;
+    color: gray;
+    display: inline-block;
+}
+.pozadina .sesto:hover{
+    color: black;
+}
+.kocka{
+    width: 450px;
+    height: 400px;
+    margin-left: 780px;
+    margin-top: 110px;
+    margin-right: 100px;
+}
+.velikitekst{
+    font-size: 60px;
+    font-family: Rubik , sans-serif;
+    font-weight: 700;
+    animation-name: example;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes example{
+    0% {left:100px; right: 0px; top:0px;color: rgb(83, 76, 76)}
+    100% {left:0px; right: 100px; top:0px;color: black;}
+ 
+}
+.manjitekst{
+    font-size: 24px;
+    color: #00000080;
+    margin-top: 33px;
+    margin-left: 27px;
+    display: inline-block;
+    animation-name: exaample1;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes exaample1{
+    0% {left:100px; right: 0px; top:0px;}
+    100% {left:0px; right: 100px; top:0px;}
+ 
+}
+.pravougaonik1{
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    display: grid;
+    place-content: center;
+    border-radius: 30px;
+    background-color: #B49C73;
+    text-align: center;
+    margin-left: 37px;
+    margin-top: 20px;
+    animation-name: example2;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes example2{
+    0% {left:100px; right: 0px; top:0px;}
+    100% {left:0px; right: 100px; top:0px;}
+ 
+}
+.pozadina .pravougaonik1:hover{
+    background-color:#d3b88a;
+}
+.malitekst{
+    color: wheat;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 100px; 
+    
+}
+
+.strana2{
+    background-color: rgb(51, 49, 63);
+    height: 1250px;
+    width: 1349px;
+    margin-top: 90px;
+    
+}
+
+.prvideo.drugastrana{
+    width: 1180px;
+    height: 500px;
+    background-color: rgb(51, 49, 63);
+    margin-left: 80px;
+}
+
+.levo2{
+    width:590px;
+    height: 490px;
+    background-color: rgb(51, 49, 63);
+    float: left;
+    animation-name: example1;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes example1{
+    0% {left:0px; right:50px; top:0px;}
+    100% {left:50px; right:0px; top:0px;}
+}
+
+.naslov2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 40px;
+    color: #B49C73;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ispod2{
+    margin-top: 30px;
+    font-size: 19px;
+    color: gray;
+    margin-left: 75px;
+    
+}
+.pravougaonik{
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #B49C73;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.strana2 .pravougaonik:hover{
+    background-color: #d3b88a;
+}
+.malitekst2{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 26px;
+    margin-top: 16px;
+}
+
+.desno2{
+    width:590px;
+    height: 490px;
+    background-color: rgb(51, 49, 63);  
+    float: right;
+    margin-top: 90px;
+    animation-name: example3;
+    animation-duration: 1s;
+    position: relative;
+}
+@keyframes example3{
+    0% {left:83px; right: 0px; top:0px;}
+    100% {left:0px; right:3px; top:0px;}
+}
+
+
+.prvi_red{
+    width: 500px;
+    height: 70px;
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns:70px 1fr;
+    grid-template-rows: 70px;
+    grid-template-areas: "levo desno";
+    background-color: rgb(51, 49, 63);  
+}
+.krug{
+    grid-area: levo;
+    background-color: #A7A7A7;
+    border-radius: 50%;
+}
+.sto{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.sto .fa-solid{
+    color: white;
+}
+.desno2 .tekst{
+    margin-left: 20px;
+    grid-area: desno;
+    font-size: 18px;
+    color: gray;
+}
+.desno2 h5{
+    color: #B49C73;
+    font-size: 20px;
+}
+
+.drugi_red{
+    width: 450px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns:70px 1fr;
+    grid-template-rows: 70px;
+    grid-template-areas: "levo desno";
+    background-color: rgb(51, 49, 63);  
+   
+}
+
+.desno2 .pravougaonik2{
+    width: 200px;
+    height: 70px;
+    background-color: rgb(51, 49, 63);  
+    color: #B49C73;
+    font-size: 20px;
+    margin-top: 50px;
+    float: right;
+    margin-right: 260px;
+}
+.desno2 .pravougaonik2:hover{
+    color: white;
+}
+.pravougaonik2 .fa-solid{
+    color: white;
+    font-size: 10px;
+    margin-left: 15px;
+}
+.drugideo2{
+    width: 1091px;
+    height: 480px;
+    background-color: rgb(51, 49, 63);
+    margin-top: 125px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 363px 363px 363px;
+    grid-template-rows: 240px 240px;
+    grid-template-areas: "levo1 sredina1 desno1"
+                        " . sredina2 desno2";
+    animation-name: example4;
+    animation-duration: 3s;
+    position: relative;
+}
+    @keyframes example4{
+    0% {left:0px; right: 0px; top: 60px;}
+    100% {left:0px; right:0px; top:0px;}
+}
+                                        
+h4{
+    color: #B49C73;
+}
+.drugideo2 .levo{
+    grid-area: levo1;
+    color: white;
+    font-weight: 400;
+    font-size: 60px;
+    margin-top: 20px;
+}
+.drugideo2 .prvo{
+    grid-area: sredina1;
+}
+.drugideo2 .gore1{
+    font-size: 100px;
+    font-weight: 300;
+    color: #B49C73;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.drugideo2 .dole1{
+    font-size: 18px;
+    color: white;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.drugideo2 h4{
+    font-weight: 400;
+    color: white;
+}
+.drugideo2 .drugo{
+    grid-area: desno1;
+}
+.drugideo2 .trece{
+    grid-area: sredina2;
+}
+.drugideo2 .cetvrto{
+    grid-area: desno2; 
+}
+
+.strana3{
+    width: 1349px;
+    height: 620px;
+    background-color: rgb(51, 49, 63);
+}
+.naslov{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 120px;
+    display: inline-block;
+}
+.naslov h4{
+    color: #B49C73;
+    display: inline-block;
+    
+}
+.blok{
+    background-color: white;
+    width: 350px;
+    height: 270px;
+    margin-left: 120px;
+    margin-top: 50px;
+    color: black;
+    display: inline-block;
+    animation-name: pomeranje;
+    animation-duration: 10s;
+
+}
+/* @keyframes pomeranje{
+    0%{transform:translate(0);}
+    20%{transform: translate(0);}
+    18%{transform: translate(-350px);}
+    34%{transform:translate(-350px)}
+    34%{transform:translate(-500px)}
+    49%{transform:translate(-500px)}
+    50%{transform: translate(-700px);}
+    66%{transform:translate(-700px)}
+    68%{transform:translate(-1100px)}
+    83%{transform: translate(-1100px);}
+    85%{transform: translate(-1300px);}
+    97%{transform:translate(-1300px)}
+    100%{transform: translate(-1500px);}
+} */
+.blok1{
+    background-color: white;
+    width: 350px;
+    height: 270px;
+    margin-left: 30px;
+    margin-top: 50px;
+    color: black;
+    display: inline-block;
+    animation-name: pomeranje;
+    animation-duration: 10s;
+
+}
+.blok .tekst{
+    font-size: 18px;
+    color: black;
+    margin: 35px 25px 0px 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.blok1 .tekst{
+    font-size: 18px;
+    color: black;
+    margin: 35px 25px 0px 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ispodslike{
+    width: 1073px;
+    height: 50px;
+    background-color: rgb(51, 49, 63);
+    margin-top: 30px;
+    margin-left: 165px;
+    display: grid;
+    grid-template-columns: 70px 120px 120px 80px 70px 120px 120px 80px 70px 120px 120px;
+    grid-template-rows: 50px;
+    grid-template-areas:  "leevo deesno nista drvo leevo1 deesno1 nes tv leevo2 deesno2 nino"
+}
+.levvo1{
+    width: 55px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("ucitelj1.jpg"); 
+    background-size: 55px 50px;
+    background-repeat: no-repeat;
+}
+.levvo2{
+    width: 55px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("ucitelj1.jpg"); 
+    background-size: 55px 50px;
+    background-repeat: no-repeat;
+}
+.levvo3{
+    width: 55px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("ucitelj1.jpg"); 
+    background-size: 55px 50px;
+    background-repeat: no-repeat;
+}
+.dessno1{
+    color: gray;
+    margin-top: 7px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dessno1 h4{
+    color: white;
+}
+.dessno2{
+    color: gray;
+    margin-top: 7px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dessno2 h4{
+    color: white;
+}
+.dessno3{
+    color: gray;
+    margin-top: 7px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dessno3 h4{
+    color: white;
+}
+
+.linija{
+    width: 1349px;
+    height: 10px;
+    background-color:rgb(51, 49, 63);
+    margin-top: 50px;
+}
+.obe{
+    margin-left: 640px;
+
+}
+.tackica1{
+    background-color: #B49C73;
+    width: 8px;
+    height: 8px;
+    margin-right: 6px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.tackica1:hover{
+    background-color: white;
+}
+.strana4{
+    width: 1349px;
+    height: 1200px;
+    background-color: rgb(63, 61, 77); 
+}
+.strana4 .sve1{
+    width: 1200px;
+    height: 600px;
+    margin-left: 80px;
+    background-color: rgb(63, 61, 77); 
+    display: inline-block;
+}
+.sve1 .naslov{
+    color: #B49C73;
+    font-size: 60px;
+    margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sve1 .bllook1{
+    width: 260px;
+    height: 320px;
+    background-color: white;
+    border-radius: 2%;
+    margin-left: 60px;
+    display: inline-block;
+}
+.sve1 .blok2{
+    width: 260px;
+    height: 320px;
+    background-color: white;
+    border-radius: 2%;
+    margin-left: 20px;
+    display: inline-block;
+}
+.unutra{
+    width: 200px;
+    height: 270px;
+    background-color: white;
+    margin: 30px;
+}
+.unutra .povise{
+    width: 200px;
+    height: 63px;
+    background-color: white;
+}
+.povise .malikrug{
+    width: 50px;
+    height: 50px;
+    background-color: #B49C73;
+    border-radius: 50%;
+}
+.malikrug .fa-solid{
+    color: white;
+    font-size: 20px;
+    margin-left: 13px;
+    margin-top: 15px;
+}
+.ispod .fa-solid{
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.unutra .ispod{
+    width: 200px;
+    height: 207px;
+    background-color: white;
+}
+
+.ispod h4{
+    color: #B49C73;
+    font-size: 20px;
+}
+
+.ispod p{
+    color: gray;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.ispod span:hover{
+    color: #B49C73;
+}
+
+.ispod span{
+    color: black;
+    font-size: 18px;
+}
+.ispod span .fa-solid{
+    color: rgb(87, 85, 85);
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 10px;
+}
+.ispod .fa-solid:hover{
+    color:white;
+    width: 15px;
+    padding: auto;
+    height: 15px;
+    background-color: #a79476;
+    text-align: center;
+}
+.zadnjaslika{
+    width: 1120px;
+    height: 405px;
+    margin-left: 110px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-image: url( "ucitelj1.jpg"); 
+    background-size: 1120px 405px;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 250px 620px 250px;
+    grid-template-rows: 100px 205px 100px;
+    grid-template-areas: "prozor jastuk marama"
+                         "svetlo kauc posteljina"
+                         "roletna tanjir casa";
+}
+.kauc{
+    color: white;
+    font-weight: 600;
+    grid-area: kauc;
+    font-size: 40px;
+}
+.loptica{
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    place-content: center;
+    border-radius: 30px;
+    background-color: #B49C73;
+    text-align: center;
+    margin-left: 170px;
+    font-weight: 600;
+
+}
+.zadnje{
+    width: 1349px;
+    height: 500px;
+    background-color: rgb(63, 61, 77);
+    display: grid;
+    grid-template-columns: 110px 110px 180px 125px 160px 99px 190px 210px 157px;
+    grid-template-rows: 60px 340px;
+    grid-template-areas: "jedan dva tri cetiri pet sest sedam osam devet"
+                         "selo lonac komp google dijana nena nina tata mama";
+}
+
+.lonac{
+    grid-area: lonac;
+    color: #B49C73;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.lonac h4{
+     color: rgb(170, 163, 163);
+}
+.lonac h3{
+    color: #B49C73;
+    font-size: 17px;
+    font-weight: 100;
+}
+.google{
+    grid-area: google;
+    color: #B49C73;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.google h4{
+    color: rgb(170, 163, 163);
+}
+.google h3{
+    color: #B49C73;
+    font-size: 17px;
+    font-weight: 100;
+}
+.zavesa{
+    grid-area: nena;
+    color: #B49C73;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.zavesa h4{
+    color: rgb(170, 163, 163);
+}
+.zavesa h3{
+    color: #B49C73;
+    font-size: 17px;
+    font-weight: 100;
+}
+.tastatura{
+    grid-area: tata;
+    color: #B49C73;
+    font-size: 18px;
+    margin-top: 15px;
+    place-content: center;
+}
+.tastatura h4{
+    color: rgb(170, 163, 163);
+}
+.tastatura h3{
+    color: #B49C73;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.kraj{
+    width: 1349px;
+    height: 140px;
+    background-color: rgb(63, 61, 77);
+    margin-top: 80px;
+}
+.poslednjitekst{
+    color: rgb(170, 163, 163);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+.kockicaa{
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 15%;
+    background-color: #B49C73;
+    display: inline-block;
+    margin-top: 15px;
+  
+}
+
+.kockicaa:hover{
+    background-color: #d3b88a;
+}
+.fa-solid{
+    color: rgb(175, 69, 69);
+}
