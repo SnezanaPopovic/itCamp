@@ -1,0 +1,29 @@
+body{
+    width: 100vw;
+
+    height: 100vh;
+}
+
+
+.container{
+    background-color: rgb(241, 186, 146);
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 50px;
+    border: 1.5px solid black;
+    
+}
+
+.my_table{
+    margin: auto;
+    width: 80%;
+}
+
+.table,
+th,
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+    
