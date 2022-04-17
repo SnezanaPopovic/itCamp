@@ -1,0 +1,107 @@
+.sve{
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px;
+    grid-template-areas: "levo desno";
+}
+.jedno{
+    grid-area: levo;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 455px 55px;
+    grid-template-areas: "kuca sto";
+}
+.levo .gore{
+    width: 250px;
+    height: 120px;
+    background-color: rgb(1, 143, 20);
+}
+.levo .sredina{
+    width: 250px;
+    height: 90px;
+    margin-top: 20px;
+    background-color: rgb(31, 255, 106);
+
+}
+.levo .dole{
+    width: 250px;
+    height: 55px;
+    margin-top: 20px;
+    background-color: rgb(5, 73, 25);
+}
+.levo .zadnje{
+    width: 250px;
+    height: 120px;
+    background-color: rgb(112, 172, 135);
+    margin-top: 30px;
+}
+.desnoo .gore{
+    width: 230px;
+    height: 100px;
+    margin-left: 10px;
+    background-color: rgb(10, 65, 37);
+}
+.desnoo .sredina{
+    width: 230px;
+    height: 66px;
+    margin: 20px;
+    margin-left: 10px;
+    background-color: rgb(58, 196, 104);
+}
+.desnoo .dole{
+    width: 230px;
+    height: 100px;
+    margin: 20px;
+
+    margin-left: 10px;
+    background-color: rgb(29, 83, 58);
+}
+.desnoo .zadnje{
+    width: 240px;
+    height: 120px;
+    background-color: rgb(112, 172, 135);
+    margin-top: 29px;
+}
+.desno{
+    height: 454px;
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 90px 364px;
+    grid-template-areas: "gore"
+                        "dole";
+}
+.desno .gore{
+    background-color: rgb(1, 143, 20);
+}
+.desno .dole{ 
+    display: grid;
+    grid-auto-columns: 250px 250px;
+    grid-template-rows: 364px;
+    grid-template-areas: "jaje dusa";
+}
+.jaje{
+    background-color: rgb(61, 146, 94);
+    margin-top: 15px;
+    margin-right: 8px;
+}
+.dusa{
+    
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 144px 220px;
+    grid-template-areas: "srce"
+                        "sreca";
+}
+.srce{
+    background-color: rgb(110, 158, 37);
+    margin-top: 15px;
+    margin-left: 8px;
+}
+.sreca{
+    background-color: rgb(24, 53, 30);
+    margin-left: 8px;
+    margin-top: 15px;
+}
